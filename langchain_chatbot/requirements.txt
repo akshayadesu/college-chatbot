@@ -1,0 +1,11 @@
+dotenv
+pandas
+SpeechRecognition
+flask flask-cors
+llama-index
+llama-index llama-index-llms-groq
+llama-index-embeddings-fastembed
+qdrant-client
+torch
+tensorflow
+llama-index-vector-stores-qdrant
