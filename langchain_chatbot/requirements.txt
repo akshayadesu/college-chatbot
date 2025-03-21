@@ -1,11 +1,30 @@
-dotenv
-pandas
-SpeechRecognition
-flask flask-cors
+google-generativeai
+nest_asyncio
+python-dotenv
+llama-parse
 llama-index
-llama-index llama-index-llms-groq
+llama-index-vector-stores-qdrant
 llama-index-embeddings-fastembed
 qdrant-client
+fastembed
+groq
+flask
+flask-cors
+pandas
+llama-cloud-services
+qdrant-client
+llama-index-llms-groq
+SpeechRecognition
+
+
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+faiss-cpu
 torch
-tensorflow
-llama-index-vector-stores-qdrant
+transformers
+langchain-huggingface
+sentence-transformers
+PyPDF2
+openpyxl

@@ -1,0 +1,13 @@
+# Ignore virtual environment
+myvenv/
+venv/
+
+# Ignore environment files
+.env
+chatbot_svecw/.env
+langchain_chatbot/.env
+
+# Ignore Node.js dependencies (if applicable)
+node_modules/
+chatbot_svecw/node_modules/
+langchain_chatbot/node_modules/

@@ -47,8 +47,8 @@ qdrant_url = os.getenv('QDRANT_URL')
 if not qdrant_url:
     raise ValueError("QDRANT_URL not set in .env file.")
 
-client = QdrantClient(url=qdrant_url, api_key=os.getenv('QDRANT_API_KEY'))
-collection_name = "krishna"
+client = QdrantClient(url=qdrant_url, api_key=os.getenv('QDRANT_API_KEY'),timeout=30)
+collection_name = "svecw"
 
 if not client.collection_exists(collection_name):
     client.create_collection(
